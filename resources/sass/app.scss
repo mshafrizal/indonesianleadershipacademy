@@ -1,1 +1,55 @@
-//
+//variables
+$blue-primary: #133C55;
+$fb: #4267B2;
+
+//body
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+//navbar
+.navbar-ila{
+    background-color: $blue-primary;
+    .navbar-nav .nav-link,
+    .navbar-brand{
+        color: #fff;
+    }
+    .navbar-nav{
+        .nav-item{
+            transition: all .2s;
+            &:hover{
+                box-shadow: 0 0 1px rgba($color: #fff, $alpha: 1.0);
+            }
+            margin-left: 40px;
+        }
+        .social-item{
+            margin-left: 40px;
+        }
+        .fb-bg{
+            width: 25px;
+            height: 25px;
+            background-color: $fb;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .social-link{
+                color: #fff;
+                padding: 1.5px 6.25px;
+            }
+        }    
+
+        .nav-link{
+            padding: .3rem 1rem;
+            font-size: .75rem;
+            font-family: 'Cabin', sans-serif;
+        }
+        .social-link{
+            font-size: 1.25rem;
+        }
+        .active{
+            border: 1px solid #fff;
+        }
+        
+    }
+}
