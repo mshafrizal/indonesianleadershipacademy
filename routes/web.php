@@ -16,4 +16,7 @@ Route::get('/', function () {
 });
 Route::get('/contact', function () {
     return view('pages.contact');
-});
+})->name('Contact');
+Route::get('/gallery', function () {
+    return view('pages.gallery');
+})->name('Gallery');

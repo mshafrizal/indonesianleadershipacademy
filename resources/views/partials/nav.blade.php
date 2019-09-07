@@ -10,10 +10,10 @@
                     <a class="nav-link text-uppercase" href="#">About Us <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Contact</a>
+                    <a class="nav-link text-uppercase" href="{{route('Contact')}}">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Gallery</a>
+                    <a class="nav-link text-uppercase" href="{{route('Gallery')}}">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-uppercase" href="#">Quotes</a>
