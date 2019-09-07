@@ -3,6 +3,38 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.bg-dark-primary {
+  background-color: #202020;
+}
+
+.bg-dark-secondary {
+  background-color: #CFCFCF;
+}
+
+.bg-grey {
+  background-color: #EEEEEE;
+}
+
+.bg-dark-grey {
+  background-color: #AEAEAE;
+}
+
+.bg-blue-primary {
+  background-color: #133C55;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.border-top-blue {
+  border-top: 5px solid #133C55;
+}
+
+.border-top-dark-grey {
+  border-top: 5px solid #AEAEAE;
+}
+
 .navbar-ila {
   background-color: #133C55;
 }
@@ -52,5 +84,55 @@ body {
 
 .navbar-ila .navbar-nav .active {
   border: 1px solid #fff;
+}
+
+.greetings p {
+  line-height: 2;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.value-section {
+  background-color: #133C55;
+}
+
+.box-value {
+  padding: 10px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.box-value > .value-title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.box-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.box-hover:hover .box-overlay {
+  top: 100%;
+}
+
+.box-hover:hover .box-overlay i {
+  display: none;
+}
+
+.box-overlay {
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #133C55;
+  border: 2px solid #eee;
+}
+
+.box-overlay i {
+  color: #fff;
+  font-size: 3.5rem;
 }
 
