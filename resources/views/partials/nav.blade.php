@@ -16,22 +16,22 @@
                     <a class="nav-link text-uppercase" href="{{route('Gallery')}}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Quotes</a>
+                    <a class="nav-link text-uppercase" href="{{route('Quotes')}}">Quotes</a>
                 </li>
-                <li class="fb-bg social-item">
-                    <a class="text-uppercase social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                <li class="social-item">
+                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-facebook.svg')}}" alt=""></a>
                 </li>
-                <li class="ig-bg social-item">
-                    <a class="text-uppercase social-link" href="#"><i class="fab fa-instagram"></i></a>
+                <li class=" social-item">
+                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-instagram.svg')}}" alt=""></a>
                 </li>
-                <li class="twitter-bg social-item">
-                    <a class="text-uppercase social-link" href="#"><i class="fab fa-twitter-square"></i></a>
+                <li class=" social-item">
+                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-twitter.svg')}}" alt=""></a>
                 </li>
-                <li class="youtube-bg social-item">
-                    <a class="text-uppercase social-link" href="#"><i class="fab fa-youtube"></i></a>
+                <li class=" social-item">
+                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-youtube.svg')}}" alt=""></a>
                 </li>
-                <li class="linkedin-bg social-item">
-                    <a class="text-uppercase social-link" href="#"><i class="fab fa-linkedin"></i></a>
+                <li class=" social-item">
+                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-linkedin.svg')}}" alt=""></a>
                 </li>
             </ul>
         </div>

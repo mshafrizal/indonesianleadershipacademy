@@ -17,6 +17,13 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('Contact');
-Route::get('/gallery', function () {
-    return view('pages.gallery');
-})->name('Gallery');
+Route::get('/gallery', 'GalleryController@imageLoop')->name('Gallery');
+Route::get('/quotes', function () {
+    return view('pages.quotes');
+})->name('Quotes');
+Route::get('/blogs', function () {
+    return view('pages.blogs');
+})->name('Blogs');
+Route::get('/about-us', function(){
+    return view('pages.about_us');
+})->name('About Us');
