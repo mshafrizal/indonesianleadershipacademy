@@ -9,6 +9,7 @@
             </h1>
             <img src="{{asset('image/vector/decoration-center.svg')}}" alt="" width="50%" class="mb-3">
             <h2 class="tagline">PEOPLE - BUSINESSES - COMPANIES - LIVES</h1>
+            <a href="#services" class="btn-learn-more text-white mt-5"><h4>LEARN MORE</h4></a>
         </div>
     </div>
     <div class="greetings w-100 d-flex justify-content-center">
@@ -17,9 +18,7 @@
                 <div class="p-5">
                     <h4>WELCOME TO OUR SITE</h4>
                     <p >
-                    We are the unique set-up, that is ready to challenge and 
-                    improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                    develop and to gain new experience. 
+                    We are organization focused on the promotion of leadership in Indonesia in order to enable corporate and executive development and leadership potential in management, industry, and social frameworks.
                     </p>
                     <a href="#" class="text-uppercase font-weight-bold">MORE</a>
                 </div>
@@ -114,65 +113,38 @@
             <div class="pl-5 text-white">
                 <h4>SHORTLY ABOUT US</h4>
                 <p >
-                    We are a partnership of individuals with a vision dedicated to supporting Indonesia as a centre of excellence within ASEAN.
-                    We work within Indonesia to support businesses, corporates and individuals. 
+                    The Indonesian Leadership Academy is a leadership group dedicated to the growth of business, corporates and individuals at all levels supporting & influencing Indonesia development as a centre of excellence in the region. 
                 </p>
             </div>
         </div>
     </div>
 </section>
-<section class="content d-flex flex-column border-top-blue">
-    <div class="d-flex flex-row flex-wrap">
-        <div class="col-lg-4 bg-dark-secondary">
-            <div class="d-flex flex-column p-3">
-                <h4>MAIN SERVICES</h4>
-                <h6>TRAININGS</h6>
-                <p >
-                We are the unique set-up, that is ready to challenge and 
-                improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                develop and to gain new experience. 
-                </p>
-                <h6>MASTER CLASSES</h6>
-                <p >
-                We are the unique set-up, that is ready to challenge and 
-                improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                develop and to gain new experience. 
-                </p>
-            </div>
+<section class="content d-flex flex-column my-5">
+    <div class="d-flex flex-column container text-center">
+        <h4 id="services" class="mb-5">OUR SERVICES</h4>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/corporate-gov.svg') }}" alt="" class="img-fluid">
         </div>
-        <div class="col-lg-4 bg-dark-primary ">
-            <div class="d-flex flex-column p-3 text-white">
-                <h4>FEATURED SERVICES</h4>
-                <h6>TRAININGS</h6>
-                <p >
-                We are the unique set-up, that is ready to challenge and 
-                improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                develop and to gain new experience. 
-                </p>
-                <h6>MASTER CLASSES</h6>
-                <p >
-                We are the unique set-up, that is ready to challenge and 
-                improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                develop and to gain new experience. 
-                </p>
-            </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/exec-leadership.svg') }}" alt="" class="img-fluid">
         </div>
-        <div class="col-lg-4 bg-blue-primary">
-            <div class="d-flex flex-column p-3 text-white">
-                <h4>OTHER SERVICES</h4>
-                <h6>TRAININGS</h6>
-                <p >
-                We are the unique set-up, that is ready to challenge and 
-                improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                develop and to gain new experience. 
-                </p>
-                <h6>MASTER CLASSES</h6>
-                <p >
-                We are the unique set-up, that is ready to challenge and 
-                improve leadership in your organization. Our company gladly helps those, who are ready to learn, to 
-                develop and to gain new experience. 
-                </p>
-            </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/roundtable.svg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/entrepreneurship.svg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/leardership-across.svg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/milky-way-1023340_1920.svg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/alexandre-debieve-FO7JIlwjOtU-unsplash.svg') }}" alt="" class="img-fluid">
+        </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/perry-grone-lbLgFFlADrY-unsplash.svg') }}" alt="" class="img-fluid">
         </div>
     </div>
 </section>
@@ -182,7 +154,7 @@
             <div class="p-5 text-white">
                 <h4 class="text-dark">WHY CHOOSE US</h4>
                 <p class="text-dark">
-                    We solve problems. We work each day to bring integrity, authenticity, intelligence, cooperation and state of the art to Indonesia’s workforce.
+                    We facilitate learning and development through workshops, webinars, seminars, discussions and individually team designed courses and session.
                 </p>
             </div>
         </div>
@@ -190,8 +162,8 @@
             <div class="p-5 text-white">
                 <h4>OUR SOLUTIONS</h4>
                 <p >
-                    1. In-Depth Seminar <br>
-                    2. One on One Coaching <br>
+                    1. In-Depth Workshops, Seminars, and Webinars <br>
+                    2. Designed courses and sessions <br>
                     3. Curated Leadership Curriculum <br>
                      
                 </p>

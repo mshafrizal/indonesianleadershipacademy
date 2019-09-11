@@ -1,10 +1,10 @@
 <footer class="d-flex flex-column w-100">
     <div class="footer-nav-bar d-flex flex-row flex-wrap bg-grey justify-content-center">
         <ul class="list-group list-group-horizontal-lg">
-            <li class="list-group-item border-0 bg-grey"><a class=" text-dark" href="{{ route('About Us') }}">About Us</a></li>
-            <li class="list-group-item border-0 bg-grey"><a class=" text-dark" href="{{ route('Contact') }}">Contact</a></li>
-            <li class="list-group-item border-0 bg-grey"><a class=" text-dark" href="{{ route('Gallery') }}">Gallery</a></li>
-            <li class="list-group-item border-0 bg-grey"><a class=" text-dark" href="{{ route('Quotes') }}">Quotes</a></li>
+            <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('About Us') }}">About Us</a></li>
+            <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Contact') }}">Contact</a></li>
+            <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Gallery') }}">Gallery</a></li>
+            <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Quotes') }}">Quotes</a></li>
         </ul>
     </div>
     <div class="footer-info d-flex flex-column bg-dark-primary align-items-center pb-3">

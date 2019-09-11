@@ -19,7 +19,7 @@
                     <a class="nav-link text-uppercase" href="{{route('Quotes')}}">Quotes</a>
                 </li>
                 <li class="social-item">
-                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-facebook.svg')}}" alt=""></a>
+                    <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/facebook.png')}}" alt=""></a>
                 </li>
                 <li class=" social-item">
                     <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/btn-instagram.svg')}}" alt=""></a>

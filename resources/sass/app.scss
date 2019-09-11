@@ -51,7 +51,17 @@ section a{
 .border-top-dark-grey{
     border-top: 5px solid $dark-grey;
 }
-
+.btn-learn-more{
+    padding: 1em 5em;
+    background-color:#3177FF;
+    &:hover{
+        background-color: lighten($color: #3177FF, $amount: 5);
+        text-decoration: none;
+    }
+    h4{
+        margin: 0 !important;
+    }
+}
 .navbar-ila{
     background-color: $blue-primary;
     .navbar-nav .nav-link,
@@ -183,7 +193,12 @@ section a{
     color: #fff;
     font-size: 3.5rem;
 }
-
+.services-item{
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
 .gallery-item{
     min-width: 360px;
     min-height: 360px;
@@ -248,3 +263,24 @@ footer .social-media-item{
         color: #04395E;
     }
 }
+.under-construction{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding: 20px;
+    .inner{
+        border: 1px solid #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+// main{
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+// }

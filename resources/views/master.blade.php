@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>ILA</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Open+Sans:300,400,600&display=swap" rel="stylesheet">
