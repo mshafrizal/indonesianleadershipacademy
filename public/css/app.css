@@ -227,8 +227,8 @@ section a {
 .quotes-item .quotes-image {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   position: absolute;
   top: 0;
   left: 0;
