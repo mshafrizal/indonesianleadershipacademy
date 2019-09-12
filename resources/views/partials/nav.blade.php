@@ -6,16 +6,16 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link text-uppercase" href="#">About Us <span class="sr-only">(current)</span></a>
+                <li @if(Route::currentRouteName()=='About Us') class="nav-item active" @else class="nav-item" @endif>
+                    <a class="nav-link text-uppercase" href="{{route('About Us')}}">About Us <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li @if(Route::currentRouteName()=='Contact') class="nav-item active" @else class="nav-item" @endif>
                     <a class="nav-link text-uppercase" href="{{route('Contact')}}">Contact</a>
                 </li>
-                <li class="nav-item">
+                <li @if(Route::currentRouteName()=='Gallery') class="nav-item active" @else class="nav-item" @endif>
                     <a class="nav-link text-uppercase" href="{{route('Gallery')}}">Gallery</a>
                 </li>
-                <li class="nav-item">
+                <li @if(Route::currentRouteName()=='Quotes') class="nav-item active" @else class="nav-item" @endif>
                     <a class="nav-link text-uppercase" href="{{route('Quotes')}}">Quotes</a>
                 </li>
                 <li class="social-item">

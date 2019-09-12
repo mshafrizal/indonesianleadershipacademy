@@ -7,6 +7,7 @@
     <div class="col-lg-3 bg-dark-primary">
         <div class="p-5 text-white">
             <h4>ADDRESS</h4>
+            <h6>PT. Mobiliari Stephindo</h6>
             <p >
                 E Trade Building Lantai 8-9, Jl. KH. Wahid Hasyim, RT.2/RW.4, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350
             </p>

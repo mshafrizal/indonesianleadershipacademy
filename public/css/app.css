@@ -47,12 +47,20 @@ section a {
   color: #fff;
 }
 
+.text-blue {
+  color: #133C55;
+}
+
 .border-top-blue {
   border-top: 5px solid #133C55;
 }
 
 .border-top-dark-grey {
   border-top: 5px solid #AEAEAE;
+}
+
+.border-bottom-blue {
+  border-bottom: 5px solid #133C55;
 }
 
 .btn-learn-more {
@@ -282,5 +290,46 @@ footer .social-media-item i.fa-linkedin-in {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.banner-about-us {
+  background: url(/images/282.jpg?d880e9d6b91b9403782a3adbd064f1da);
+  background-size: cover;
+  height: 400px;
+  padding: 3em 3em;
+}
+
+.banner-about-us .mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.who-we-are .who-we-are-pic {
+  background: url(/images/nick-agus-arya-5i3oyOrojvk-unsplash.jpg?af7b836890109695ab33e38a392783f7);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+}
+
+.who-we-are .who-we-are-text {
+  font-size: 1.4rem;
+}
+
+.how-we-do-it-bg {
+  background: #133c55;
+  background: linear-gradient(90deg, #133c55 0%, #0384d2 100%);
+}
+
+.hwdi-1 p {
+  color: #fff;
+  font-size: 1.2rem;
 }
 
