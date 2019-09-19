@@ -27,3 +27,17 @@ Route::get('/blogs', function () {
 Route::get('/about-us', function(){
     return view('pages.about_us');
 })->name('About Us');
+
+//ADMIN
+Route::get('/dashboard', function(){
+    return view('pages.admin.dashboard');
+})->name('dashboard');
+Route::get('/blog-list', function(){
+    return view('pages.admin.blog-list');
+})->name('blog-list');
+Route::get('/quote-list', function(){
+    return view('pages.admin.quote-list');
+})->name('quote-list');
+Route::get('/web-information', function(){
+    return view('pages.admin.web-info');
+})->name('web-info');
