@@ -1,1 +1,333 @@
-//
+
+$blue-primary: #133C55;
+$fb: #4267B2;
+$twitter: #eee;
+$instagram: #eee;
+$linkedin: #eee;
+$youtube: #eee;
+$dark-primary: #202020;
+$dark-secondary:#CFCFCF;
+$ligh-grey: #EEEEEE;
+$dark-grey: #AEAEAE;
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cabin', sans-serif;
+}
+p{
+    line-height: 2;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+section a{
+    font-size: .9rem;
+}
+
+.bg-dark-primary{
+    background-color: $dark-primary !important;
+}
+.bg-dark-secondary{
+    background-color: $dark-secondary !important;
+}
+.bg-grey{
+    background-color: $ligh-grey !important;
+}
+.bg-dark-grey{
+    background-color: $dark-grey !important;
+}
+.bg-blue-primary{
+    background-color: $blue-primary !important;
+}
+.text-white{
+    color: #fff;
+}
+.text-blue{
+    color: $blue-primary;
+}
+.border-top-blue{
+    border-top: 5px solid $blue-primary;
+}
+.border-top-dark-grey{
+    border-top: 5px solid $dark-grey;
+}
+.border-bottom-blue{
+    border-bottom: 5px solid $blue-primary;
+}
+.btn-learn-more{
+    padding: 1em 5em;
+    background-color:#3177FF;
+    &:hover{
+        background-color: lighten($color: #3177FF, $amount: 5);
+        text-decoration: none;
+    }
+    h4{
+        margin: 0 !important;
+    }
+}
+.navbar-ila{
+    background-color: $blue-primary;
+    .navbar-nav .nav-link,
+    .navbar-brand{
+        color: #fff;
+    }
+    .navbar-nav{
+        .nav-item{
+            transition: all .2s;
+            &:hover{
+                box-shadow: 0 0 1px rgba($color: #fff, $alpha: 1.0);
+            }
+            margin-left: 40px;
+        }
+        .social-item{
+            margin-left: 40px;
+            a img{
+                
+                max-height: 30px;
+                max-width: 30px;
+                width: 100%;
+                height: 100%;
+            }
+            
+        }
+        // .fb-bg{
+        //     width: 25px;
+        //     height: 25px;
+        //     background-color: $fb;
+        //     border-radius: 2px;
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     .social-link{
+        //         color: #fff;
+        //         padding: 1.5px 6.25px;
+        //     }
+        // }
+        // .ig-bg{
+        //     width: 25px;
+        //     height: 25px;
+        //     background-color: $fb;
+        //     border-radius: 2px;
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     .social-link{
+        //         color: #fff;
+        //         padding: 1.5px 6.25px;
+        //     }
+        //}    
+
+        .nav-link{
+            padding: .3rem 1rem;
+            font-size: .75rem;
+            font-family: 'Cabin', sans-serif;
+        }
+        // .social-link{
+        //     font-size: 1.25rem;
+        // }
+        .active{
+            border: 1px solid #fff;
+        }
+        
+    }
+}
+
+.caption-image{
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin: 0 auto;
+    transform: translateX(-25%);
+    text-align: center;
+    h1{
+        font-size: 3.5em;
+        font-weight: bold;
+        color: #fff;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .tagline{
+        background-color: #fff;
+        padding: 2px 10px;
+        color: $blue-primary;
+    }
+}
+.greetings p{
+    line-height: 2;
+    font-size: .9rem;
+    font-weight: 300;
+}
+.value-section{
+    background-color: #133C55;
+}
+.box-value{
+    padding: 10px;
+    height: 100%;
+    background-color: #fff;
+}
+.box-value > .value-title{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.box-hover{
+    position: relative;
+    overflow: hidden;
+}
+.box-hover:hover .box-overlay{
+    top:100%;
+}
+.box-hover:hover .box-overlay i{
+    display: none;
+}
+.box-overlay{
+    transition: all .3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #133C55;
+    border: 2px solid #eee;
+}
+.box-overlay i{
+    color: #fff;
+    font-size: 3.5rem;
+}
+.services-item{
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-item{
+    min-width: 360px;
+    min-height: 360px;
+    max-width: 360px;
+    max-height: 360px;
+}
+.gallery-item .gallery-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.quotes-item{
+    max-height: 200px;
+    min-height: 200px;
+}
+.quotes-item .quotes-image{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.quotes h5{
+    height: 100px;
+}
+
+footer .list-group-item{
+    background-color: $ligh-grey;
+}
+footer .social-media-link{
+    width: 100%;
+    max-width: 400px;
+    padding: 0 10px;
+}
+footer .social-media-item{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    i.fa-facebook-f{
+        color:#14336F;
+    }
+    i.fa-instagram{
+        color: transparent;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    i.fa-youtube{
+        color: #FF0000;
+    }
+    i.fa-linkedin-in{
+        color: #04395E;
+    }
+}
+.under-construction{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    padding: 20px;
+    .inner{
+        border: 1px solid #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+.banner-about-us{
+    background: url(./image/282.jpg);
+    background-size: cover;
+    height: 400px;
+    padding: 3em 3em;
+    .mask{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        border: 1px solid #fff;
+        background-color: rgba($color: #000000, $alpha: .5)
+    }
+}
+.who-we-are{
+    .who-we-are-pic{
+        background: url(./image/nick-agus-arya-5i3oyOrojvk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+    }
+    .who-we-are-text{
+        font-size: 1.4rem;
+    }
+}
+.how-we-do-it-bg{
+    background: rgb(19,60,85);
+    background: linear-gradient(90deg, rgba(19,60,85,1) 0%, rgba(3,132,210,1) 100%);
+}
+.hwdi-1{
+    // background-color: rgba($color: #202020, $alpha: .5);
+    // border: 1px solid #fff;
+    p{
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}
+// main{
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+// }
