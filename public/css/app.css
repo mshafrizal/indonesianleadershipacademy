@@ -333,3 +333,13 @@ footer .social-media-item i.fa-linkedin-in {
   font-size: 1.2rem;
 }
 
+.blog-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-content p {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+

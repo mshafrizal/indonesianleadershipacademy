@@ -24,6 +24,15 @@ Route::get('/quotes', function () {
 Route::get('/blogs', function () {
     return view('pages.blogs');
 })->name('Blogs');
+Route::get('/blog-detail', function () {
+    return view('pages.blog_detail');
+})->name('blog-detail');
+Route::get('/blog-detail-en', function () {
+    return view('pages.blog_detail_en');
+})->name('blog-detail-en');
+Route::get('/blog-detail-id', function () {
+    return view('pages.blog_detail_id');
+})->name('blog-detail-id');
 Route::get('/about-us', function(){
     return view('pages.about_us');
 })->name('About Us');

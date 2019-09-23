@@ -123,28 +123,31 @@
     <div class="d-flex flex-column container text-center">
         <h4 id="services" class="mb-5">OUR SERVICES</h4>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/corporate-gov.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/corporate-gov.svg') }}" alt="corporate governance" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/exec-leadership.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/exec-leadership.svg') }}" alt="executive leadership" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/roundtable.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/roundtable.svg') }}" alt="ceo roundtable" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/entrepreneurship.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/entrepreneurship.svg') }}" alt="entrepreneurship" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/leardership-across.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/leardership-across.svg') }}" alt="leadership across borders" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/milky-way-1023340_1920.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/milky-way-1023340_1920.svg') }}" alt="future fit leadership" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/alexandre-debieve-FO7JIlwjOtU-unsplash.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/alexandre-debieve-FO7JIlwjOtU-unsplash.svg') }}" alt="tech innovation roundatble" class="img-fluid">
         </div>
         <div class="d-flex flex-row mb-3 justify-content-center">
-            <img src="{{ asset('image/vector/perry-grone-lbLgFFlADrY-unsplash.svg') }}" alt="" class="img-fluid">
+            <img src="{{ asset('image/vector/perry-grone-lbLgFFlADrY-unsplash.svg') }}" alt="humanitarian" class="img-fluid">
+        </div>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+            <img src="{{ asset('image/vector/coaching.svg') }}" alt="coaching" class="img-fluid">
         </div>
     </div>
 </section>
@@ -165,7 +168,7 @@
                     1. In-Depth Workshops, Seminars, and Webinars <br>
                     2. Designed courses and sessions <br>
                     3. Curated Leadership Curriculum <br>
-                     
+                    4. Coaching <br> 
                 </p>
             </div>
         </div>
@@ -173,7 +176,7 @@
 </section>
 <section class="content d-flex flex-column">
     <div class="bg-blue-primary p-5 text-center text-white">
-        <h2 class="text-uppercase">WE AIM TO HELP INDONESIAN WORKFORCE</h2>
+        <h2 class="text-uppercase">WE AIM TO HELP THE INDONESIAN WORKFORCE</h2>
         <img src="{{asset('image/vector/decoration-center.svg')}}" alt="" width="50%">
         <h2 class="text-uppercase">IN LEADING WITHIN INDONESIA AND GLOBALLY</h2>
     </div>

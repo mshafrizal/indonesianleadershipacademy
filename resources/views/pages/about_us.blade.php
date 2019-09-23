@@ -2,7 +2,7 @@
 @section('content')
 <section class="content d-flex flex-column justify-content-center align-items-center banner-about-us text-center">
     <div class="mask">
-        <h1>ABOUT INDONESIAN LEADERSHIP ACADEMY</h1>
+        <h1>ABOUT THE INDONESIAN LEADERSHIP ACADEMY</h1>
     </div>
 </section>
 <section class="content d-flex flex-column who-we-are my-5">

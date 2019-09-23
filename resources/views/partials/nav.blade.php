@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-ila">    
     <div class="container">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand" href="/">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,6 +17,9 @@
                 </li>
                 <li @if(Route::currentRouteName()=='Quotes') class="nav-item active" @else class="nav-item" @endif>
                     <a class="nav-link text-uppercase" href="{{route('Quotes')}}">Quotes</a>
+                </li>
+                <li @if(Route::currentRouteName()=='blog-detail') class="nav-item active" @else class="nav-item" @endif>
+                    <a class="nav-link text-uppercase" href="{{route('Blogs')}}">Blog</a>
                 </li>
                 <li class="social-item">
                     <a class="text-uppercase social-link" href="#"><img src="{{asset('image/vector/facebook.png')}}" alt=""></a>
