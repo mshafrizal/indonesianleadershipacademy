@@ -18,7 +18,7 @@
                 </a>
             </li>
             <li>
-                <a href="pages/widgets.html">
+                <a href="{{route('gallery-list')}}">
                     <i class="fa fa-th"></i> <span>Gallery</span>
                 </a>
             </li>

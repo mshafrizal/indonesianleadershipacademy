@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBlogsTable extends Migration
+class CreateQuotesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,14 @@ class CreateBlogsTable extends Migration
      */
     public function up()
     {
-        Schema::create('blogs', function (Blueprint $table) {
+        Schema::create('quotes', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('blog_title');
-            $table->integer('blog_author');
-            $table->longText('body');
+            $table->integer('quote_author');
+            $table->string('quote_title');
+            $table->string('quote_desc');
+            $table->string('quote_owner');
+            $table->string('quote_image');
+            $table->boolean('main_quotes');
             $table->timestamps();
         });
     }
@@ -29,6 +32,6 @@ class CreateBlogsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('blogs');
+        Schema::dropIfExists('quotes');
     }
 }

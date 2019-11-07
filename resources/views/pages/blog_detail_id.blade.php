@@ -6,7 +6,7 @@
     <section class="blog-content px-2 my-4">
         <div class="d-flex flex-column no-gutters px-3">
             <h1>7 Kutipan Inspiratif dari B.J. Habibie yang Bisa Kamu Jadikan Pedoman Hidup</h1>
-            <small><a href="https://indonesiatatler.com/society/7-kutipan-inspiratif-dari-b-j-habibie-yang-bisa-kamu-jadikan-pedoman-hidup">Source: https://indonesiatatler.com/society/7-kutipan-inspiratif-dari-b-j-habibie-yang-bisa-kamu-jadikan-pedoman-hidup</a></small>
+            <small><a target="_blank" href="https://indonesiatatler.com/society/7-kutipan-inspiratif-dari-b-j-habibie-yang-bisa-kamu-jadikan-pedoman-hidup">Source: https://indonesiatatler.com/society/7-kutipan-inspiratif-dari-b-j-habibie-yang-bisa-kamu-jadikan-pedoman-hidup</a></small>
             <small>
                 Chris Yahya | Sep 13, 2019
             </small>

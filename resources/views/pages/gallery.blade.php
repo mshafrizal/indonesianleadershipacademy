@@ -11,7 +11,7 @@
             <div class="row">
                 @foreach ($images as $item)
                     <div class="gallery-item position-relative p-2">
-                        <a href="{{asset('image/' . $item->getFileName())}}" data-toggle="lightbox">
+                      <a href="{{asset('image/' . $item->getFileName())}}" data-toggle="lightbox" data-footer="{{$item->caption}}">
                             <img src="{{asset('image/' . $item->getFileName())}}" alt="" class="gallery-image">
                         </a>
                     </div>

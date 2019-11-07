@@ -77,6 +77,25 @@ section a {
   margin: 0 !important;
 }
 
+.social-link {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-item {
+  list-style: none;
+  margin-left: 24px;
+}
+
+.social-item a img {
+  max-height: 30px;
+  max-width: 30px;
+  width: 100%;
+  height: 100%;
+}
+
 .navbar-ila {
   background-color: #133C55;
 }
@@ -95,15 +114,8 @@ section a {
   box-shadow: 0 0 1px white;
 }
 
-.navbar-ila .navbar-nav .social-item {
+.navbar-ila .navbar-nav .social-list {
   margin-left: 40px;
-}
-
-.navbar-ila .navbar-nav .social-item a img {
-  max-height: 30px;
-  max-width: 30px;
-  width: 100%;
-  height: 100%;
 }
 
 .navbar-ila .navbar-nav .nav-link {
@@ -338,8 +350,66 @@ footer .social-media-item i.fa-linkedin-in {
   margin: 0 auto;
 }
 
-.blog-content p {
-  font-size: 1.1em;
-  font-weight: 400;
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 599px) {
+  .caption-image h1 {
+    font-size: 22px;
+  }
+
+  .caption-image h2 {
+    font-size: 18px;
+  }
+
+  .btn-learn-more {
+    padding: 16px 24px;
+  }
+
+  .btn-learn-more > h4 {
+    font-size: 16px;
+  }
+
+  .box-overlay i {
+    font-size: 32px;
+  }
+
+  .about-us-short {
+    margin-top: 2em;
+  }
+
+  .about-us-short div {
+    padding-left: 0 !important;
+  }
+
+  section.mission h2 {
+    font-size: 22px;
+  }
+
+  .navbar-ila .navbar-nav .nav-item {
+    margin: 8px 0;
+  }
+
+  .navbar-ila .social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+  }
+
+  .navbar-ila .social-link .social-item {
+    list-style: none;
+    margin: 2px 0;
+  }
 }
 

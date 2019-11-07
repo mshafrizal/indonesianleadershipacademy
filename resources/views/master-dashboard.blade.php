@@ -28,7 +28,33 @@
   <link rel="stylesheet" href="{{asset('css/bootstrap-daterangepicker/daterangepicker.css')}}">
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="{{asset('js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
-
+  <script src="https://cdn.tiny.cloud/1/eqamb73skytggjqnzutuk6xvkxycl443pbkjiex8garfnhfp/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+      tinymce.init({
+        selector: '#blog-content',
+        plugins: 'print preview paste autolink visualblocks image link wordcount',
+        toolbar: 'undo redo | styleselect bold italic fontselect fontsizeselect | alignleft aligncenter alignright | bullist numlist | outdent indent',
+        content_css: ['//fonts.googleapis.com/css?family=Indie+Flower',
+                      '//fonts.googleapis.com/css?family=Cabin&',
+                      '//fonts.googleapis.com/css?family=Open+Sans',
+                      'https://fonts.googleapis.com/css?family=Merriweather'],
+        font_formats: 'Andale Mono=andale mono,times; Trebuchet MS=trebuchet ms,geneva; Verdana=verdana,geneva; Terminal=terminal,monaco; Times New Roman=times new roman,times;Cabin=cabin; Open Sans=open sans; Merriweather=merriweather, times;',
+        fontsize_formats: '11px 12px 14px 16px 18px 24px 36px 48px',
+        image_dimensions: false,
+        image_class_list: [
+          {title: 'Responsive', value: 'img-fluid'}
+        ],
+        min_width: 1000,
+        height: 1000,
+        theme: 'silver',
+        mobile: {
+          theme: 'mobile',
+          plugins: [ 'autosave', 'lists', 'autolink' ]
+        },
+        view: { title: 'View', items: 'code | visualaid visualblocks | preview' },
+        paste_data_images: true
+      });
+    </script>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -42,71 +68,8 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
-  <header class="main-header">
-    <!-- Logo -->
-    <a href="index2.html" class="logo">
-      <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
-      <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">ILA</span>
-    </a>
-    <!-- Header Navbar: style can be found in header.less -->
-    <nav class="navbar navbar-static-top">
-      <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span>
-      </a>
-
-      <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">
-          <!-- User Account: style can be found in dropdown.less -->
-          <li class="dropdown user user-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <span class="hidden-xs">Super Admin</span>
-            </a>
-            <ul class="dropdown-menu">
-              <!-- User image -->
-              <li class="user-header">
-                <p>
-                  Super Admin
-                  <small>Member since 2019</small>
-                </p>
-              </li>
-              <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
-              </li>
-              <!-- Menu Footer-->
-              <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
   
+    @include('partials.admin.header')
     @include('partials.admin.main-sidebar')
     <div class="content-wrapper">
         @yield('content')
@@ -116,11 +79,6 @@
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark" style="display: none;">
-    <!-- Create the tabs -->
-    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-      <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-      <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-    </ul>
     <!-- Tab panes -->
     <div class="tab-content">
       <!-- Home tab content -->

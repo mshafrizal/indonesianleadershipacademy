@@ -21,14 +21,14 @@
             <h4>GET IN TOUCH</h4>
             
             <form action="">
-                <div class="form-group d-flex flex-row mb-3">
-                    <div class="col-lg-4 pl-0">
+                <div class="form-group d-flex row mb-3">
+                    <div class="col-lg-4 col-md-12 my-2">
                         <input class="w-100" type="text" name="name" id="name" placeholder="Name">
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-12 my-2">
                         <input  class="w-100" type="email" name="email" id="email" placeholder="Email">
                     </div>
-                    <div class="col-lg-4 pr-0">
+                    <div class="col-lg-4 col-md-12 my-2">
                         <input  class="w-100" type="num" name="phone" id="phone" placeholder="Phone">
                     </div>
                 </div>

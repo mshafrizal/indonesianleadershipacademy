@@ -9,7 +9,7 @@
             </h1>
             <img src="{{asset('image/vector/decoration-center.svg')}}" alt="" width="50%" class="mb-3">
             <h2 class="tagline">PEOPLE - BUSINESSES - COMPANIES - LIVES</h1>
-            <a href="#services" class="btn-learn-more text-white mt-5"><h4>LEARN MORE</h4></a>
+            <a href="#services" class="btn-learn-more text-white mt-3"><h4>LEARN MORE</h4></a>
         </div>
     </div>
     <div class="greetings w-100 d-flex justify-content-center">
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 flex-column p-0">
+        <div class="col-lg-6 flex-column p-0 about-us-short">
             <div class="pl-5 text-white">
                 <h4>SHORTLY ABOUT US</h4>
                 <p >
@@ -174,7 +174,7 @@
         </div>
     </div>
 </section>
-<section class="content d-flex flex-column">
+<section class="content d-flex flex-column mission">
     <div class="bg-blue-primary p-5 text-center text-white">
         <h2 class="text-uppercase">WE AIM TO HELP THE INDONESIAN WORKFORCE</h2>
         <img src="{{asset('image/vector/decoration-center.svg')}}" alt="" width="50%">

@@ -10,6 +10,15 @@
     </ol>
 </section>
 <section class="content">
+    @if(session()->has('message'))
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="alert alert-success">
+                    {{ session()->get('message') }}
+                </div>
+            </div>
+        </div>
+    @endif
     <div class="row">
         <div class="col-lg-12">
             <div class="row">
@@ -17,50 +26,21 @@
                     <h4>Social Media Link</h4>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <a href="#" class="btn btn-info pull-right">Edit</a>
+                    <a href="{{ route('web-info-edit') }}" class="btn btn-info pull-right">Edit</a>
                 </div>
             </div>
             <br>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <b>Facebook Link</b>
+            @foreach ($webInfoData as $item)
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <b>{{ $item->name }}</b>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12">
+                        <a href="{{ $item->value }}"> {{ $item->value }}</a>
+                    </div>
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-12">
-                    http://www.facebook.com
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <b>Twitter Link</b>
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-12">
-                    http://www.twitter.com
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <b>Instagram Link</b>
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-12">
-                    http://www.instagram.com
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <b>Youtube Link</b>
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-12">
-                    http://www.youtube.com
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12">
-                    <b>Linkedin Link</b>
-                </div>
-                <div class="col-lg-9 col-md-9 col-sm-12">
-                    http://www.linkedin.com
-                </div>
-            </div>
+                <br>
+            @endforeach
         </div>
         <div class="col-lg-12">
             <br>
