@@ -29,7 +29,7 @@ class UserController extends Controller
 
     public function index(){
         if(Auth::check()){
-            return view('pages.admin.dashboard');
+            return redirect()->route('dashboard');
         }
         else
         return view('pages.login');

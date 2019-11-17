@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark navbar-ila">    
     <div class="container">
-        <a class="navbar-brand" href="/">LOGO</a>
+        <a class="navbar-brand" style="font-size: 18px;" href="{{route('Home')}}">Indonesian Leadership Academy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

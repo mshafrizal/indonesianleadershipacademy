@@ -9,10 +9,10 @@
     <div class="card mb-3 quotes border-0">
         <div class="row no-gutters">
             <div class="col-lg-12 main-quotes-item text-center">
-                <img src="{{asset('image/quotes/20190913120738-bj-habibie_resized_773x435.jpg')}}" alt="" class="main-quotes-image img-fluid mx-auto img-thumbnail rounded" data-toggle="tooltip" data-placement="top" title="https://www.britannica.com/biography/Alexander-the-Great/images-videos">
+                <img src="{{asset('image/quotes/HBDHabibie.JPG')}}" alt="" class="main-quotes-image img-fluid mx-auto img-thumbnail rounded" data-toggle="tooltip" data-placement="top" title="https://www.britannica.com/biography/Alexander-the-Great/images-videos">
             </div>
             <div class="col-lg-12 text-center my-5">
-                <h4><em>"Cinta tidak berupa tatapan satu sama lain, tetapi memandang keluar bersama ke arah yang sama."</em></h4>
+                <h4><em>"Dimanapun engkau berada selalulah menjadi yang terbaik dan berikan yang terbaik dari yang bisa kau berikan."</em></h4>
             </div>
         </div>
     </div>

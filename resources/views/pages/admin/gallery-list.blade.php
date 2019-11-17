@@ -31,7 +31,7 @@
               <li class="list-group-item">
                 {{ $item->created_at }}
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item" style="display: flex; justify-content: space-between;">
                 <a href="{{ route('edit-image', [$item->id]) }}" class="btn btn-warning">Edit</a>
                 <form action="{{ route('delete-image', [$item->id]) }}" method="post">
                   <input type="submit" value="Delete" class="btn btn-danger">
