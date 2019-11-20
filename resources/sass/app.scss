@@ -1,5 +1,5 @@
 
-$blue-primary: #133C55;
+$blue-primary: #252760;
 $fb: #4267B2;
 $twitter: #eee;
 $instagram: #eee;
@@ -11,18 +11,18 @@ $ligh-grey: #EEEEEE;
 $dark-grey: #AEAEAE;
 
 body{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: .9rem;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 p{
+    font-family: 'Open Sans';
     line-height: 2;
-    font-size: 0.9rem;
-    font-weight: 300;
-}
+    font-size: 16px;
+} 
 section a{
     font-size: .9rem;
 }
@@ -59,14 +59,54 @@ section a{
 }
 .btn-learn-more{
     padding: 1em 5em;
-    background-color:#3177FF;
+    background-color:#252760;
     &:hover{
-        background-color: lighten($color: #3177FF, $amount: 5);
+        background-color: lighten($color: #252760, $amount: 5);
         text-decoration: none;
     }
     h4{
         margin: 0 !important;
     }
+}
+.list-group li {
+  list-style: none;
+}
+.content .card {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.15);
+  height: 100%;
+  transition: all .4s;
+  &:hover {
+    background-color: #252760;
+    color: #fff;
+    i{
+      color: #fff;
+    }
+  }
+  i{
+    color: #196BB5;
+  }
+  .card-text{
+    font-weight: bold;
+  }
+}
+.services {
+  background: linear-gradient(90deg, #1565FF 0%, #57AFE1 100%);
+  .card {
+    background: transparent;
+    border-color: #fff;
+    transition: all .3s;
+    &:hover{
+      border-color: $blue-primary;
+      .card-text{
+        color: $blue-primary;
+      }
+    }
+    .card-text {
+      color: #fff;
+    }
+  }
 }
 .social-link {
   padding: 0;
@@ -145,26 +185,12 @@ section a{
 }
 
 .caption-image{
-    max-width: 100%;
-    width: 100%;
-    position: absolute;
-    top: 20%;
-    left: 25%;
-    margin: 0 auto;
-    transform: translateX(-25%);
-    text-align: center;
-    h1{
-        font-size: 3.5em;
-        font-weight: bold;
-        color: #fff;
-    }
-    h2{
-        font-size: 3rem;
-    }
-    .tagline{
-        background-color: #fff;
-        padding: 2px 10px;
-        color: $blue-primary;
+  margin: 18px 0;
+    .logo {
+      height: 100%;
+      width: 100%;
+      max-width: 200px;
+      margin: 0 auto;
     }
 }
 .greetings p{
@@ -382,6 +408,7 @@ footer .social-media-item{
     }
   }
   section.mission {
+    position: relative;
     h2{
       font-size: 22px;
     }

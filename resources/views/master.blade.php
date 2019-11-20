@@ -7,12 +7,13 @@
         <title>ILA</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Open+Sans:300,400,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/8505c87347.js"></script>
         <!-- Styles -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         @include('partials.nav')
@@ -24,7 +25,14 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
+            AOS.init({
+              offset: 100,
+              delay: 100,
+              duration: 500,
+              once: true,
+            });
             $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();

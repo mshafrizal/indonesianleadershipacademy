@@ -9,7 +9,7 @@
             <h4>ADDRESS</h4>
             <h6>PT. Mobiliari Stephindo</h6>
             <p >
-                E Trade Building Lantai 8-9, Jl. KH. Wahid Hasyim, RT.2/RW.4, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350
+              E Trade Building Lantai 8-9, Jl. KH. Wahid Hasyim No. 55, Menteng, Jakarta 10350 - Indonesia
             </p>
             <p>
                 (021) 31906838

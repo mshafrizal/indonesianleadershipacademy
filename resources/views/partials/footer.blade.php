@@ -37,7 +37,7 @@
         </div>
         <div class="address text-center text-white text-regular">
             <h6 id="phone mb-2">(021) 31906838</h6>
-            <h6 id="address"> E Trade Building Lantai 8-9, Jl. KH. Wahid Hasyim, RT.2/RW.4, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350</h6>
+            <h6 id="address"> E Trade Building Lantai 8-9, Jl. KH. Wahid Hasyim No. 55, Menteng, Jakarta 10350 - Indonesia</h6>
         </div>
         <div class="copyright text-center text-white my-3">
             &copy;2019 Muhammad Shafrizal

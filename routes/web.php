@@ -17,7 +17,7 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 })->name('Contact');
-Route::get('/gallery', 'GalleryController@imageLoop')->name('Gallery');
+Route::get('/gallery', 'GalleryController@galleryFrontEnd')->name('Gallery');
 Route::get('/quotes', function () {
     return view('pages.quotes');
 })->name('Quotes');

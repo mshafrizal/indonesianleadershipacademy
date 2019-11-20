@@ -16,6 +16,11 @@ class GalleryController extends Controller
         return view('pages.gallery')->with('images', $images);
     }
 
+    public function galleryFrontEnd () {
+      $images = Gallery::all();
+      return view('pages.gallery')->with('images', $images);
+    }
+
     public function store(Request $request){
       if(Auth::check()){
           $user = Auth::user();
