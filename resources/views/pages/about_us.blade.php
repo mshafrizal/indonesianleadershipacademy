@@ -14,7 +14,7 @@
         <div class="col-lg-6 mb-3">
             <div class="d-flex flex-column px-lg-5">
                 <h3 class="text-blue font-weight-bold border-bottom-blue">WHO WE ARE</h3>
-                <p class="who-we-are-text">The Indonesian Leadership Academy is a private enterprise dedicated to facilitating the development and growth of leadership in organisations, community and individuals in Indonesia creating a centre of excellence within Asia today.</p>
+                <p class="who-we-are-text">The Indonesian Leadership Academy is a leadership group dedicated to the growth of business, corporates and individuals at all levels supporting & influencing Indonesia development in the region.</p>
             </div>
         </div>
     </div>

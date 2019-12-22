@@ -53,6 +53,14 @@ class BlogController extends Controller
         $blogs = DB::table('blogs')->simplePaginate(10);
         return view('pages.blogs')->with('blogs', $blogs);
     }
+    public function destroy(Request $request) {
+      if(Auth::check()) {
+        DB::table('blogs')->where('id', $request->id)->delete();
+        return redirect()->route('blog-list');
+      }
+      else
+        return redirect()->route('login');
+    }
     public function searchBlog (Request $request){
         $search_key = trim($request->searchKey);
         $results;

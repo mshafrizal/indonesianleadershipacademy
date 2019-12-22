@@ -1,5 +1,6 @@
 
 $blue-primary: #252760;
+$blue-secondary: #1B98E0;
 $fb: #4267B2;
 $twitter: #eee;
 $instagram: #eee;
@@ -42,6 +43,11 @@ section a{
 .bg-blue-primary{
     background-color: $blue-primary !important;
 }
+.bg-picture-3{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/3.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
 .text-white{
     color: #fff;
 }
@@ -71,6 +77,23 @@ section a{
 .list-group li {
   list-style: none;
 }
+.quote .card {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px rgba(0,0,0,0.15);
+  height: 100%;
+  transition: all .4s;
+  &:hover {
+    transform: scale(1.025);
+    box-shadow: 0 3px 7px rgba(3,132,210, 0.3);
+  }
+  i{
+    color: #196BB5;
+  }
+  .card-text{
+    font-weight: bold;
+  }
+}
 .content .card {
   border: none;
   border-radius: 3px;
@@ -92,15 +115,19 @@ section a{
   }
 }
 .services {
-  background: linear-gradient(90deg, #1565FF 0%, #57AFE1 100%);
+  // background: linear-gradient(90deg, #1565FF 0%, #57AFE1 100%);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./image/2.jpg);
+  background-size: cover;
+  background-position: center;
   .card {
     background: transparent;
     border-color: #fff;
     transition: all .3s;
     &:hover{
+      background-color: $blue-primary;
       border-color: $blue-primary;
       .card-text{
-        color: $blue-primary;
+        color: #fff;
       }
     }
     .card-text {
@@ -241,10 +268,10 @@ section a{
     background-size: cover;
 }
 .gallery-item{
-    min-width: 360px;
-    min-height: 360px;
-    max-width: 360px;
-    max-height: 360px;
+    min-width: 240px;
+    min-height: 240px;
+    max-width: 240px;
+    max-height: 240px;
 }
 .gallery-item .gallery-image{
     width: 100%;
@@ -319,8 +346,9 @@ footer .social-media-item{
     }    
 }
 .banner-about-us{
-    background: url(./image/282.jpg);
+    background: url(./image/history-in-hd-sTou35WzMso-unsplash.jpg);
     background-size: cover;
+    background-position: bottom;
     height: 400px;
     padding: 3em 3em;
     .mask{

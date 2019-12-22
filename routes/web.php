@@ -18,7 +18,7 @@ Route::get('/contact', function () {
     return view('pages.contact');
 })->name('Contact');
 Route::get('/gallery', 'GalleryController@galleryFrontEnd')->name('Gallery');
-Route::get('/quotes', function () {
+Route::get('/privacy-policy', function () {
     return view('pages.quotes');
 })->name('Quotes');
 Route::get('/blogs', 'BlogController@blogsPage')->name('Blogs');
@@ -47,6 +47,7 @@ Route::get('/blog/edit/{id}', 'BlogController@edit')->name('blog-edit');
 Route::get('/blog/search', 'BlogController@adminSearchBlog')->name('admin-blog-search');
 Route::post('blog-add', 'BlogController@store')->name('blog-save');
 Route::put('blog/edit/{id}', 'BlogController@update')->name('blog-save-update');
+Route::delete('/blog/{id}', 'BlogController@destroy')->name('delete-blog');
 
 Route::get('/gallery-list', 'GalleryController@index')->name('gallery-list');
 Route::get('/add-image', 'GalleryController@create')->name('add-image');

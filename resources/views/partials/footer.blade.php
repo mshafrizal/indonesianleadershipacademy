@@ -4,32 +4,32 @@
             <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('About Us') }}">About Us</a></li>
             <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Contact') }}">Contact</a></li>
             <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Gallery') }}">Gallery</a></li>
-            <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Quotes') }}">Quotes</a></li>
+            <li class="list-group-item border-0 bg-grey"><a class="d-block text-dark" href="{{ route('Quotes') }}">Privacy Policy</a></li>
         </ul>
     </div>
     <div class="footer-info d-flex flex-column bg-dark-primary align-items-center pb-3">
         <div class="social-media-link d-flex justify-content-between my-5">
-            <a href="#">
+            <a href="https://fb.me/IndonesianLeadershipAcademy" target="_blank">
                 <div class="social-media-item d-flex justify-content-center align-items-center">
                     <i class="fab fa-facebook-f"></i>
                 </div>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
                 <div class="social-media-item d-flex justify-content-center align-items-center">
                     <i class="fab fa-twitter"></i>
                 </div>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/indonesianleadershipacademy" target="_blank">
                 <div class="social-media-item d-flex justify-content-center align-items-center">
                     <i class="fab fa-instagram"></i>
                 </div>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
                 <div class="social-media-item d-flex justify-content-center align-items-center">
                     <i class="fab fa-youtube"></i>
                 </div>
             </a>
-            <a href="#">
+            <a href="#" target="_blank">
                 <div class="social-media-item d-flex justify-content-center align-items-center">
                     <i class="fab fa-linkedin-in"></i>
                 </div>

@@ -2,10 +2,27 @@
 @section('content')
 <section class="content d-flex my-3">
     <div class="container">
-        <h4>QUOTES</h4>
+        <h4>PRIVACY POLICY</h4>
     </div>
 </section>
 <section class="content d-flex flex-column container">
+  <p class=" mb-5">We take your privacy seriously, information you provide to us shall not be sold, exchanged
+    or transferred for any reason whatsoever except to trusted third parties operating our
+    website servicing you, or conducting our business. Such parties are required to keep all
+    information confidential. By visiting our site you confirm that you consent to our privacy
+    policy.
+  </p>
+  <p class=" mb-5">
+    Third party products or services included or offered on our website will have separate and
+    independent privacy policies for which we are not able to take responsibility. We ask for
+    your feed back, as relevant about these sites. Please contact us if you have any questions
+    in this respect.
+  </p>
+  <p class=" mb-5">
+    Please contact us if you have any questions on the above.
+  </p>
+</section>
+{{-- <section class="content d-flex flex-column container">
     <div class="card mb-3 quotes border-0">
         <div class="row no-gutters">
             <div class="col-lg-12 main-quotes-item text-center">
@@ -72,7 +89,7 @@
             </div>
             <div class="col-lg-9">
                 <div class="card-body">
-                    <h4>In the future, there will be no female leaders. There will be just leaders.</h4>
+                    <h4>In the future, there will be no female  my-5ers. There will be just  my-5ers.</h4>
                     <hr>
                     <p class="card-text font-italic">
                         Sheryl Sandberg
@@ -86,7 +103,7 @@
             
             <div class="col-lg-10">
                 <div class="card-body">
-                    <h4>Management is doing things right. Leadership is doing the right things.</h4>
+                    <h4>Management is doing things right.  my-5ership is doing the right things.</h4>
                     <hr>
                     <p class="card-text font-italic">
                         Jack Welch
@@ -98,5 +115,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 @endsection

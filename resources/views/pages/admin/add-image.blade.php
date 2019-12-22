@@ -28,7 +28,7 @@
             <label for="" class="form-control-label">Image File:</label>
           </div>
           <div class="col-lg-10 col-md-10 col-sm-12">
-            <input type="file" name="image_name" class="form-control">
+            <input type="file" name="image_name" id="image_name"class="form-control">
           </div>
         </div>
         <div class="form-group row">

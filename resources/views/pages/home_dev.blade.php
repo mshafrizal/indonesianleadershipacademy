@@ -1,9 +1,18 @@
 @extends('master')
 @section('content')
 <section class="content d-flex flex-column">
+  <div class="carousel-item">
+    <img src="{{ asset('image/Logo.jpg') }}" alt="Logo Indonesian Leadership Academy" class="m-auto img-fluid">
+    <div class="carousel-caption d-none d-md-block">
+      <h5>INDONESIAN LEADERSHIP ACADEMY</h5>
+      <p>We Aim To Transform People - Business - Companies - Lives</p>
+    </div>
+  </div>
+</section>
+<section class="content d-flex flex-column">
     <div class="position-relative landing my-5">
         <div class="caption-image d-flex flex-column justify-content-center text-center align-items-center">
-          <img src="{{ asset('image/Logo.jpg') }}" alt="Logo Indonesian Leadership Academy" class="logo mb-4" data-aos="fade-in">
+          <img src="{{ asset('image/Logo.jpg') }}" alt="Logo Indonesian Leadership Academy" style="max-height: 300px" class="logo mb-4" data-aos="fade-in">
             <h1 data-aos="fade-in"><b>
                 INDONESIAN LEADERSHIP ACADEMY
             </h1></b>
@@ -142,6 +151,130 @@
     </ol>
   </div>
 </section>
+
+<section class="d-flex flex-column container quote">
+    <h1 class="mb-5 text-center" data-aos="fade-in">Inpiring Quotes</h1>
+    <div class="card mb-3 quotes border-0" data-aos="fade-in">
+        <div class="row no-gutters">
+            <div class="col-lg-12 main-quotes-item text-center">
+                <img src="{{asset('image/quotes/jack-welch.jpg')}}" style="max-height: 250px !important" alt="" class="main-quotes-image img-fluid mx-auto rounded" data-toggle="tooltip" data-placement="top" title="https://www.britannica.com/biography/Alexander-the-Great/images-videos">
+            </div>
+            <div class="col-lg-12 text-center my-5">
+                <h4><em>"Management is doing things right. Leadership is doing the right things."</em></h4>
+            </div>
+            <div class="col-lg-12 text-center mb-3">
+              <h4>Jack Welch</h4>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 quotes" data-aos="fade-in">
+        <div class="row no-gutters">
+            <div class="col-lg-10 col-md-9 col-sm-12">
+                <div class="card-body text-right">
+                    <h4>Kalau ditanya Habibie umur berapa? Saya jawab 90 kurang 10, namun jiwanya saya tetap 17 tahun, dik, karena hidup ini hanya 24 jam sehari maka kita perlu melakukan hal yang bermanfaat.</h4>
+                    <hr>
+                    <p class="card-text font-italic">
+                        B. J. Habibie
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 pl-0 quotes-item">
+                <img src="{{asset('image/quotes/20190913120738-bj-habibie_resized_773x435.jpg')}}" alt="" class="quotes-image" data-toggle="tooltip" data-placement="top" title="https://www.britannica.com/biography/Alexander-the-Great/images-videos">
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 quotes" data-aos="fade-in">
+        <div class="row no-gutters">
+            <div class="col-lg-2 col-md-3 col-sm-12 pl-0 quotes-item">
+                <img src="{{asset('image/quotes/sheryl_sandberg_getty_h_2016.jpg')}}" alt="" class="quotes-image" data-toggle="tooltip" data-placement="top" title="https://www.britannica.com/biography/Mother-Teresa/images-videos">
+            </div>
+            <div class="col-lg-10 col-md-9 col-sm-12">
+                <div class="card-body">
+                    <h4>In the future, there will be no female  my-5ers. There will be just leaders.</h4>
+                    <hr>
+                    <p class="card-text font-italic">
+                        Sheryl Sandberg
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 quotes" data-aos="fade-in">
+        <div class="row no-gutters">
+            <div class="col-lg-10 col-md-9 col-sm-12 text-right">
+                <div class="card-body">
+                    <h4>I alone cannot change the world, but I can cast a stone across the water to create many ripples</h4>
+                    <hr>
+                    <p class="card-text font-italic">
+                        Mother Teresa
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 pl-0 quotes-item">
+                <img src="{{asset('image/quotes/mother-teresa.jpg')}}" alt="" class="quotes-image" data-toggle="tooltip" data-placement="top" title="https://id.wikipedia.org/wiki/Berkas:Bruce_Lee_as_Kato_1967.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 quotes" data-aos="fade-in">
+        <div class="row no-gutters">
+            <div class="col-lg-2 col-md-3 col-sm-12 pl-0 quotes-item">
+                <img src="{{asset('image/quotes/Mahatma-Gandhi.jpg')}}" alt="" class="quotes-image" data-toggle="tooltip" data-placement="top" title="https://www.britannica.com/biography/Mother-Teresa/images-videos">
+            </div>
+            <div class="col-lg-10 col-md-9 col-sm-12">
+                <div class="card-body">
+                    <h4>Find yourself in the service of others</h4>
+                    <hr>
+                    <p class="card-text font-italic">
+                        Mahatma Gandhi
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{-- <section class="d-flex flex-column container my-5 quote">
+  <h1 class="mb-5 text-center" data-aos="fade-in">Inpiring Quotes</h1>
+  <div class="col-lg-12 mb-3" data-aos="fade-right">
+    <div class="card">
+      <div class="card-body">
+          <p>Management is doing things right. Leadership is doing the right things.</p>
+          <h3 class="text-right">Jack Welch</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 mb-3" data-aos="fade-left">
+    <div class="card">
+      <div class="card-body">
+          <p>Kalau ditanya Habibie umur berapa? Saya jawab 90 kurang 10, namun jiwanya saya tetap 17 tahun, dik, karena hidup ini hanya 24 jam sehari maka kita perlu melakukan hal yang bermanfaat.</p>
+          <h3 class="text-right">B. J. Habibie</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 mb-3" data-aos="fade-right">
+    <div class="card">
+      <div class="card-body">
+          <p>In the future, there will be no female leaders. There will be just leaders.</p>
+          <h3 class="text-right">Sheryl Sandberg</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 mb-3" data-aos="fade-left">
+    <div class="card">
+      <div class="card-body">
+          <p>I alone cannot change the world, but I can cast a stone across the water to create many ripples</p>
+          <h3 class="text-right">Mother Teresa</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12 mb-3" data-aos="fade-right">
+    <div class="card">
+      <div class="card-body">
+          <p>Find yourself in the service of others</p>
+          <h3 class="text-right">Mahatma Gandhi</h3>
+      </div>
+    </div>
+  </div>
+</section> --}}
 {{-- <section class="content d-flex flex-column border-top-dark-grey">
     <div class="w-100 d-flex justify-content-center flex-row flex-wrap">
         <div class="col-lg-6 flex-column p-0 bg-dark-grey">
